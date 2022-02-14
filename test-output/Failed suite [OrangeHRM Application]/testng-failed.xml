@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [OrangeHRM Application]]" parallel="none">
+  <listeners>
+    <listener class-name="com.UtilityLayer.ExtentReportListener"/>
+  </listeners>
+  <test name="Home Page Test(failed)(failed)" parallel="none">
+    <classes>
+      <class name="com.TestLayer.HomePageTest">
+        <methods>
+          <include name="validateLogoutLink"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.TestLayer.HomePageTest -->
+    </classes>
+  </test> <!-- Home Page Test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [OrangeHRM Application]] -->

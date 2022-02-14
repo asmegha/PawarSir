@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]">
+	<listeners>
+		<listener class-name="com.UtilityLayer.ExtentReportListener" />
+	</listeners>
+	<test parallel="none" name="Test(failed)">
+		<classes>
+			<class name="com.TestLayer.Demo1">
+				<methods>
+					<include name="m1" />
+					<include name="m2" />
+				</methods>
+			</class> <!-- com.TestLayer.Demo1 -->
+		</classes>
+	</test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
